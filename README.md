@@ -12,11 +12,11 @@
 ---
 - 에러
 
-      콜백함수 안에서 또 콜백함수를 사용하여 처리하자, 
-      _Can't set headers after they are sent._ 라는 중첩 헤더 선언 메시지 발생.
+    콜백함수 안에서 또 콜백함수를 사용하여 처리하자, <br>
+    _Can't set headers after they are sent._ 라는 중첩 헤더 선언 메시지 발생.
       
 
 - 해결
 
-      Promise를 사용한 코드로 수정하여 문제를 해결함
+    Promise를 사용한 코드로 수정하여 문제를 해결함
 
